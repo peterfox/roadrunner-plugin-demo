@@ -1,38 +1,13 @@
 # RoadRunner Plugin Template
 
 <p align="center">
- <a href="https://github.com/peterfox/roadrunner-plugin-template/releases"><img src="https://img.shields.io/github/v/release/peterfox/roadrunner-plugin-template.svg?maxAge=30"></a>
-	<a href="https://pkg.go.dev/github.com/peterfox/roadrunner-plugin-template"><img src="https://godoc.org/github.com/peterfox/roadrunner-plugin-template?status.svg"></a>
-	<a href="https://github.com/peterfox/roadrunner-plugin-template/actions"><img src="https://github.com/peterfox/roadrunner-plugin-template/workflows/tests/badge.svg"></a>
-	<a href="https://goreportcard.com/report/github.com/peterfox/roadrunner-plugin-template"><img src="https://goreportcard.com/badge/github.com/peterfox/roadrunner-plugin-template"></a>
-	<a href="https://lgtm.com/projects/g/spiral/roadrunner-binary/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/spiral/roadrunner-binary.svg?logo=lgtm&logoWidth=18"/></a>
-    <img alt="All releases" src="https://img.shields.io/github/downloads/peterfox/roadrunner-plugin-template/total">
+ <a href="https://github.com/peterfox/roadrunner-plugin-demo/releases"><img src="https://img.shields.io/github/v/release/peterfox/roadrunner-plugin-demo.svg?maxAge=30"></a>
+	<a href="https://pkg.go.dev/github.com/peterfox/roadrunner-plugin-demo"><img src="https://godoc.org/github.com/peterfox/roadrunner-plugin-demo?status.svg"></a>
+	<a href="https://github.com/peterfox/roadrunner-plugin-template/actions"><img src="https://github.com/peterfox/roadrunner-plugin-demo/workflows/tests/badge.svg"></a>
+	<a href="https://goreportcard.com/report/github.com/peterfox/roadrunner-plugin-demo"><img src="https://goreportcard.com/badge/github.com/peterfox/roadrunner-plugin-demo"></a>
+	<a href="https://lgtm.com/projects/g/peterfox/roadrunner-plugin-demo/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/peterfox/roadrunner-plugin-demo.svg?logo=lgtm&logoWidth=18"/></a>
+    <img alt="All releases" src="https://img.shields.io/github/downloads/peterfox/roadrunner-plugin-demo/total">
 </p>
-
-<todo>
-This repo can be used to scaffold a RoadRunner Plugin. Follow these steps to get started:
-1. Update the module name in go.mod
-
-   ```
-   module github.com/peterfox/roadrunner-plugin-template
-   ```
-2. Ideally you should rename the package in all the `.go` files from `plugin` to something else.
-
-   ```go
-   package plugin
-   ```
-3. Rename the plugin to whatever is appropriate, this should be kept to snake case:
-   ```go
-   const PluginName = "plugin"
-   ```
-4. Update the LICENSE.md file
-5. If your plugin is not going to be public on GitHub then you should remove `.github/workflows/codeql-analysis.yml`. You may also need to [enable code scanning](https://docs.github.com/en/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning) for the repository
-6. Update the contributors in the README.md.
-7. Update the README.md references to the plugin, installation and usage.
-8. Update the badges at the top of README.md to point to your own repository.
-9. Remove the todo section from your README.md
-
-</todo>
 
 ## Installation
 
@@ -53,7 +28,7 @@ package container
 
 import (
     // ...
-    demoPlugin "github.com/peterfox/roadrunner-plugin-template"
+    demoPlugin "github.com/peterfox/roadrunner-plugin-demo"
     // ...
 )
 
